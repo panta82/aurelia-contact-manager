@@ -81,7 +81,7 @@ export class WebAPI {
 		});
 	}
 
-	saveContact(contact: Contact) {
+	saveContact(contact: Contact): Promise<Contact> {
 		this.isRequesting = true;
 		return new Promise(resolve => {
 			setTimeout(() => {
