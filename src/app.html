@@ -2,7 +2,9 @@
 	<require from="bootstrap/css/bootstrap.css"></require>
 	<require from="./styles.css"></require>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+	<require from="./components/contact-list"></require>
+
+	<nav class="navbar fixed-top navbar-light bg-light" role="navigation">
 		<div class="container">
 			<a class="navbar-brand" href="#">
 				<i class="fa fa-user"></i>
@@ -13,7 +15,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">Contact List Placeholder</div>
+			<contact-list class="col-md4"></contact-list>
 			<router-view class="col-md-8"></router-view>
 		</div>
 	</div>
