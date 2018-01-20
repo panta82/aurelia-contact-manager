@@ -12,7 +12,14 @@ Following http://aurelia.io/docs/tutorials/creating-a-contact-manager
 
 #### Bad
 
-* Still fiddly component setup, separate templates means you have to type magic strings against models (poor tooling in editors doesn't help)
+* I still feel disincentivized to create components freely, unlike react
+* Separate templates means you have to type magic strings against models (poor tooling in editors doesn't help)
 * Bad error messages, difficult debugging
 * `EventAggregator` sync system feels absolutely archaic compared to the one way data flows from The Big 3.
-* Low mind-share
+* Low mind-share, doesn't seem to be going anywhere
+
+#### Conclusion
+
+Aurelia achieves what it wants to be - a conservative-ish web-only 2-way-binding SPA framework in the style of angular 1 and ember from the days of yore. Fair enough, but that's probably not good enough to gain any traction in 2018.
+
+It's the D language of SPA-s. Slightly better version of a more popular counterpart (angular in this case), but not better enough to win the mindshare game.
