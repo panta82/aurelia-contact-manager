@@ -6,6 +6,7 @@ Following http://aurelia.io/docs/tutorials/creating-a-contact-manager
 
 #### Good
 
+* Good interop with traditional js libraries (jQuery-based stuff)
 * Less boilerplate than angular 2+, while keeping dependency injection workflow
 * Cleaner syntax than angular 2+, web standards
 
